@@ -1,74 +1,97 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>CozyCup Coffee Shop</title>
+    <title>CoZyCup Café</title>
 </head>
 <body>
     <header>
- 
+        <nav>
+            <div class="logo">
+                <img src="img/logo.png" alt="LAVA JAVA Café Logo">
+            </div>
             <ul>
-                <center><p>Welcome to CozyCup Coffee Shop</p></center>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
- 
+        </nav>
     </header>
-
     <section id="home" class="hero">
+        <div class="Logo1">
+            <img src="img/logo.png" alt="LAVA JAVA Café Logo">
+        </div>
+        <h1>Welcome to CozyCup Café</h1>
+        <p>Sip, Relax, Repeat</p>
+        <a href="#menu" class="cta-button">Explore Menu</a>
+    </section>
 
-        
-        <h1>CozyCup Coffee Shop</h1>
-        <p>Job Description</p>
-        <a href="#portfolio" class="cta-button">View My Work</a>
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <img src="img/coffee_blend1.jpg" alt="Coffee Blend 1" class="img1">
+    </section>
 
-        <Nav><li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#Menu">Menu</a></li>
-        <li><a href="#contact">Contact us</a></li>
-    </Nav>
+    <section id="featured-products" class="featured-products">
+        <h2>Featured-products</h2>
+    </section>
+    <section>
+        <div class="product">
+            <img src="img/coffee_blend1.jpg" alt="Coffee Blend 1">
+            <h3>Signature Blend</h3>
+            <p>A harmonious blend of Arabica and Robusta beans, with a rich and smooth flavor.</p>
+        </div>
+        <div class="product">
+            <img src="img/coffee_blend2.jpg" alt="Coffee Blend 2">
+            <h3>Choco-Hazelnut Delight</h3>
+            <p>Indulge in the delightful combination of chocolate and hazelnut in every sip.</p>
+        </div>
+        <div class="product">
+            <img src="img/pastry1.jpg" alt="Pastry 1">
+            <h3>Blueberry Bliss Muffin</h3>
+            <p>Experience the burst of blueberry flavor in our freshly baked muffins.</p>
+        </div>
     </section>
 
     <section id="about" class="about">
-        <h2>About Me</h2>
-        <p>👋 Hi, I’m @Mendoza1411
-            👀 I’m interested in Vehicles
-            🌱 I’m currently learning Coding
-            💞️ I’m looking to collaborate on what
-            📫 How to reach me call me
-            😄 Pronouns: eh?
-            ⚡ Fun fact: funny</p>
-    </section>
-
-    <section id="portfolio" class="portfolio">
-        <h2>Portfolio</h2>
-        <div class="portfolio-item">
-            <img src="img/img1.jpg" alt="Project 1">
-            <h3>Project 1</h3>
-            <p>Creating Repository</p>
-        </div>
-        <div class="portfolio-item">
-            <img src="img/img1.jpg" alt="Project 2">
-            <h3>Project 2</h3>
-            <p>Luck Predictions</p>
-        </div>
-        <!-- Add more portfolio items as needed -->
+        <h2>About Us</h2>
+        <p>Discover the story behind CozyCupCafé.</p>
+        <p>LAVA JAVA Café is known as JAVA café. We started building on June 11, 2018.
+            We began as a small business, creating simple coffees like mocha and chocolate.
+            In 2019, milk became popular because we added a twist (ice coffee flavor: milk with strawberry toppings) during the summer season.
+            In the year 2020, during the pandemic, we created a social media platform for delivery and online orders.
+            We started adding new styles, flavors, and upgrades for our coffees.
+        </p>
     </section>
 
     <section id="contact" class="contact">
-        <h2>Contact Me</h2>
-        <p>Feel free to get in touch. Email: generalmendoza141@email.com 
-            GitHub: https://github.com/Mendoza1411/JAM-portfolio</p>
+        <h2>Contact Us</h2>
+        <p>Email: 202180220@psu.palawan.edu.ph</p>
+        <p>Have questions or feedback? Reach out to us...</p>
     </section>
 
     <footer>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <p>&copy; 2023 Jomari Mendoza. All rights reserved.</p>
+        <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>Email: info@CozyCupcafe.com</p>
+            <p>Phone: +1 (123) 456-7890</p>
+        </div>
+        <div class="social-media">
+            <h3>Connect with Us</h3>
+            <a href="#" target="_blank"><img src="img/facebook-icon.png" alt="Facebook"></a>
+            <a href="#" target="_blank"><img src="img/twitter-icon.png" alt="Twitter"></a>
+            <a href="#" target="_blank"><img src="img/instagram-icon.png" alt="Instagram"></a>
+        </div>
+        <div class="newsletter-signup">
+            <h3>Subscribe to Our Newsletter</h3>
+            <form action="subscribe.php" method="post">
+                <input type="email" name="email" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <p>&copy; 2024 CozyCup Café. All rights reserved.</p>
     </footer>
 </body>
 </html>

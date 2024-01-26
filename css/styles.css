@@ -1,72 +1,108 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
-    color: #333;
+}
+
+body {
+    font-family: cursive, handwriting;
+    background-color: #cab29a;
+    color: #381a09;
+    text-align: center;
 }
 
 header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
+    background-color: #272e33;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-decoration-color: #ede4d6;
+}
+.ul{
+    color: #7e685b;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 125px;
+}
+
+.Logo1 img {
+    max-width: 250px;
 }
 
 nav ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-nav li {
-    display: inline;
-    margin: 0 20px;
+    display: flex;
+    gap: 20px;
 }
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: #4c3c32;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #ddd;
+    color: #7e685b;
 }
 
 .hero {
     text-align: center;
-    padding: 100px 0;
+    padding: 150px 0;
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    color: white;
 }
 
 .hero h1 {
     font-size: 36px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .hero p {
     font-size: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #4c3c32;
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .cta-button:hover {
-    background-color: #555;
+    background-color: #7e685b;
+}
+
+.menu {
+    padding: 100px 0;
+    text-align: center;
+
+}
+.img1{
+    max-width: 900px;
+    max-height: 900px;
+}
+
+.menu h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+
 }
 
 .about {
-    background-color: #eee;
     padding: 100px 0;
     text-align: center;
+    background-color: #ede4d6;
 }
 
 .about h2 {
@@ -80,36 +116,11 @@ nav a:hover {
     margin: 0 auto;
 }
 
-.portfolio {
-    padding: 100px 0;
-    text-align: center;
-}
-
-.portfolio h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-.portfolio-item {
-    display: inline-block;
-    width: 300px;
-    margin: 20px;
-    padding: 20px;
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.portfolio-item img {
-    max-width: 100%;
-}
-
 .contact {
-    background-color: #333;
-    color: white;
     padding: 100px 0;
     text-align: center;
+    background-color: #4c3c32;
+    color: white;
 }
 
 .contact h2 {
@@ -119,32 +130,13 @@ nav a:hover {
 
 .contact p {
     font-size: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 footer {
-    background-color: #333;
+    font-family: Arial, sans-serif;
+    background-color: #4c3c32;
     color: white;
     text-align: center;
     padding: 20px 0;
-}
-
-footer ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-footer li {
-    display: inline;
-    margin: 0 20px;
-}
-
-footer a {
-    text-decoration: none;
-    color: white;
-}
-
-footer p {
-    margin: 10px 0;
 }
