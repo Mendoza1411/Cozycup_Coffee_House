@@ -41,7 +41,7 @@ Name: **Jomari Mendoza**
 Email: **Generalmendoza141@gmail.com**
 
 <a
-href="https://web.facebook.com/?_rdc=1&_rdr">
+href="https://www.facebook.com/JomariMendoza.657?mibextid=kFxxJD">
 <img src = "https://github.com/gauravghongde/social-icons/blob/master/PNG/Black/Facebook_black.png?raw=true" width="50"><a
 href=https://github.com/Mendoza1411>
 <img src = "https://github.com/gauravghongde/social-icons/blob/master/PNG/Black/Github_black.png?raw=true" width="50">
@@ -56,7 +56,7 @@ Name: **Ian Jan Julito Aborot**
 Email: **Astralshiro26@gmail.com**
 
 <a
-href=https://www.facebook.com/selene.tyrd?mibextid=kFxxJD>
+href="https://chat.google.com/dm/17d5M0AAAAE/vbszS37RiGA/vbszS37RiGA?cls=10">
 <img src = "https://github.com/gauravghongde/social-icons/blob/master/PNG/Black/Facebook_black.png?raw=true" width="50"> <a
 href=https://github.com/Aborot11>
 <img src = "https://github.com/gauravghongde/social-icons/blob/master/PNG/Black/Github_black.png?raw=true" width="50">
