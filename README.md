@@ -16,4 +16,48 @@ CozyCup Coffee House is an innovative and inviting coffee shop concept that aims
 
 ### Screen Captures
 
-!(111.png)
+&nbsp;
+![Main](https://raw.githubusercontent.com/Mendoza1411/Cozycup_Coffee_House/main/img/111.png)
+This is the landing page of our Coffee Shop
+
+&nbsp;
+![Home](https://raw.githubusercontent.com/Mendoza1411/Cozycup_Coffee_House/main/img/222.png)
+This is the Home page of our Coffee Shop
+
+&nbsp;
+![Menu](https://raw.githubusercontent.com/Mendoza1411/Cozycup_Coffee_House/main/img/333.png)
+This is our Menu Section
+
+&nbsp;
+![Most Selled](https://raw.githubusercontent.com/Mendoza1411/Cozycup_Coffee_House/main/img/444.png)
+This is our best selling coffee
+
+### About the Author
+
+
+<img src = "https://avatars.githubusercontent.com/u/156726364?s=96&v=4" width="150" style="border-radius:50%;">
+
+Name: **Jomari Mendoza**  
+Email: **Generalmendoza141@gmail.com**
+
+<a
+href="https://web.facebook.com/?_rdc=1&_rdr">
+<img src = "https://github.com/gauravghongde/social-icons/blob/master/PNG/Black/Facebook_black.png?raw=true" width="50"><a
+href=https://github.com/Mendoza1411>
+<img src = "https://github.com/gauravghongde/social-icons/blob/master/PNG/Black/Github_black.png?raw=true" width="50">
+
+
+&nbsp;
+
+<img src = "https://avatars.githubusercontent.com/u/156725900?s=96&v=4" width="150" style="border-radius:50%;">
+
+
+Name: **Ian Jan Julito Aborot**  
+Email: **Astralshiro26@gmail.com**
+
+<a
+href=https://github.com/Aborot11>
+<img src = "https://github.com/gauravghongde/social-icons/blob/master/PNG/Black/Facebook_black.png?raw=true" width="50"> <a
+href=https://github.com/Aborot11>
+<img src = "https://github.com/gauravghongde/social-icons/blob/master/PNG/Black/Github_black.png?raw=true" width="50">
+
