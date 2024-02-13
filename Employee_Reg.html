@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unemployed ka par?</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            color: #007BFF;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="password"]:focus {
+            border-color: #007BFF;
+        }
+
+        small {
+            color: #888;
+            display: block;
+            margin-top: 5px;
+        }
+
+        button[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Employee Registration</h1>
+        <form onsubmit="return logValues()">
+            <div class="form-group">
+                <label for="Lastname">Last Name:</label>
+                <input type="text" id="Lastname" name="Lastname" required>
+            </div>
+            <div class="form-group">
+                <label for="Firstname">First Name:</label>
+                <input type="text" id="Firstname" name="Firstname" required>
+            </div>
+            <div class="form-group">
+                <label for="MiddleName">Middle Name:</label>
+                <input type="text" id="MiddleName" name="MiddleName" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" minlength="8" maxlength="12" required>
+                <small>Password must contain at least 8 characters.</small>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+    <script>
+        function logValues() {
+            var lastName = document.getElementById("Lastname").value;
+            var firstName = document.getElementById("Firstname").value;
+            var middleName = document.getElementById("MiddleName").value;
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+
+            console.log("Last Name: " + lastName);
+            console.log("First Name: " + firstName);
+            console.log("Middle Name: " + middleName);
+            console.log("Email: " + email);
+            console.log("Password: " + password);
+
+            return false;
+        }
+    </script>
+</body>
+</html>
